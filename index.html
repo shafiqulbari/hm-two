@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="https://www.youtube.com/" target="_blank">
+    <title>Practice</title>
+    <style>
+        table, td, th {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Elements Reference</h1>
+    
+    <hr>
+
+    <embed type="image/jpg" src="./image/passion.jpg" width="300" height="200">
+
+    <!--Make a comments-->
+    <p>In this practice session we will learn about some of the basic html elements. For further elements reference visit the folowing link :</p>
+    <a href="https://www.w3schools.com/tags/default.asp">HTML Elements Reference</a>
+    <abbr title="World Wide Web Consortium">W3C</abbr>
+    <address>
+        Shafiqul Bari <br>
+        017xxxxxxxx <br>
+        xyz@gmail.com <br>
+        Muhammadpur, Dhaka <br>
+        Bangladesh.
+    </address>
+    <article class="fav-footballer">
+        <h1>My Three Fav Footballer</h1>
+
+        <article class="fav-footballer-one">
+            <h2>Lionel Andreas Messi</h2>
+           <blockquote>
+             <p>Lorem ipsum dolor sit amet consectetur <q><b>The Greatest Ever</b></q> adipisicing elit. Alias ducimus odit impedit, animi corporis sint debitis quae nulla quidem ad voluptatem harum aperiam amet minima neque cupiditate dolor vel repellendus.</p>
+           </blockquote>
+        </article>
+
+        <article class="fav-footballer-two">
+            <h2>Andreas Iniesta</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ducimus odit impedit, animi corporis sint debitis quae nulla quidem ad voluptatem harum aperiam amet minima neque cupiditate dolor vel repellendus.</p>
+        </article>
+
+        <article class="fav-footballer-three">
+            <h2>Xavi Hernandez</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ducimus odit impedit, animi corporis sint debitis quae nulla quidem ad voluptatem harum aperiam amet minima neque cupiditate dolor vel repellendus.</p>
+        </article>
+
+    </article>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum praesentium minima esse, aperiam facilis repellat? Architecto culpa itaque officiis placeat odit reiciendis excepturi maiores hic, doloremque blanditiis dicta! Tempora!</p>
+
+    <aside>
+        <h2>Aside</h2>
+        <!--aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}-->
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione illo magnam dolorem et, reprehenderit mollitia unde dicta officia iste sapiente at! Delectus recusandae nihil dolore amet autem perspiciatis, voluptates sequi!</p>
+    </aside>
+
+    <audio controls src="#">play</audio>
+    <button type="button" style="display: block;">Submit</button>
+    <p><cite>The Pretty Girls</cite> by Karin Slaughter is an amazing novel</p>
+
+    <p>I don't think this tag/elements is <code>IMPORTANT</code></p>
+
+    <table>
+        <caption>An unneccessary Table</caption>
+        <colgroup>
+            <col span="3" style="background-color: aquamarine;">
+            <col span="2" style="background-color: rgb(253, 188, 66);">
+        </colgroup>
+        
+        <thead>
+            <tr>
+                <th>one</th>
+                <th>two</th>
+                <th>three</th>
+                <th>four</th>
+                <th>five</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ek</td>
+                <td>dui</td>
+                <td>teen</td>
+                <td>char</td>
+                <td>panch</td>
+            </tr>
+            <tr>
+                <td>ek</td>
+                <td>dui</td>
+                <td>teen</td>
+                <td>char</td>
+                <td>panch</td>
+            </tr>
+            <tr>
+                <td>ek</td>
+                <td>dui</td>
+                <td>teen</td>
+                <td>char</td>
+                <td>panch</td>
+            </tr>
+        </tbody>
+        
+    </table>
+
+    <div>
+        <ul>
+            <li data value="333">Mangooo</li>
+            <li data value="222">Tangooo</li>
+            <li data value="111">Fangooo</li>
+        </ul>
+    </div>
+
+    <form method="get">
+        <label for="career">Choose your career from the list: </label>
+        <input list="careers" name="career" id="career">
+        <datalist id="careers">
+            <option value="Web Developer">
+            <option value="Full-stack web developer">
+            <option value="Both">
+        </datalist>
+        <input type="submit">
+    </form>
+
+    <h2>Let's use the dialog tag</h2>
+    <p>This is the first time i'm using this tag</p>
+    <dialog open>I'm kind of unware how this will work</dialog>
+
+    <dl>
+        <dt>Passion</dt>
+        <dd><p>you can use paragraph, images, link, list inside dd</p>
+        </dd>
+    </dl>
+    <img src="./image/green.jpg" alt="An image of greenery">
+
+    <p>Greatest football player is <del>Ronaldo</del> <ins>Messi</ins></p>
+    <details>
+        <summary>Future</summary>
+        <p><em>I'll</em> build my career in web development by the grace of Allah, InshaAllah. I hope in the meantime i'll learn well enough from Faisal Minhaz bhai to make that dream comes true</p>
+    </details>
+
+    <p><dfn title="hypertext markup language">HTML</dfn> is the standard markup language for building a website</p>
+
+    <form action="">
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="birthday">Birthday</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+    
+
+</body>
+</html>
